@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+   <order id="1">
+      <isbn>9781617290459</isbn>
+	  <isbn>9780132360289</isbn>
+      <info>
+	  <dealerid>1</dealerid>
+	  <customer ref="2"></customer>
+	  </info>
+   </order>
+    <order id="2">
+      <isbn>9781617290450</isbn>
+	  <isbn>9780132360280</isbn>
+      <info>
+	  <dealerid>1</dealerid>
+	  <customer>
+	  <name>Eisele</name>
+	  <surename>Markus</surename>
+	  <street>Test Street</street>
+	  <number>1</number>
+	  <postalCode>12345</postalCode>
+	  <state>Bavaria</state>
+	  <country>Germany</country>
+	  </customer>
+	  </info>
+   </order> 
+ </orders>

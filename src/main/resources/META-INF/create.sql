@@ -1,0 +1,3 @@
+CREATE TABLE CUSTOMER ("CID" bigint not null auto_increment,"CNAME" varchar(20) not null ,"CSURENAME" varchar(20) not null, "CSTREET" varchar(40) not null,"CNUMBER" varchar(5) not null,"CPCODE" varchar(8) not null,"CSTATE" varchar(20) not null,"CCOUNTRY" varchar(20) not null,"CDEALERID" varchar(20) not null)
+CREATE TABLE ORDERENTRIES ("OID" bigint not null auto_increment, "OCID" bigint not null, "OISBN" varchar(20) not null, "ODID" bigint not null)
+CREATE TABLE CSEQUENCE ("ID" varchar(20), "VALUE" bigint)
